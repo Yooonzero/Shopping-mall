@@ -1,0 +1,20 @@
+{
+    "name": "shopping_mall",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch Shopping-mall/ Shopping-mall/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mongoose": "^6.7.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
